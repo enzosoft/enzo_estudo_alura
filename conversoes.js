@@ -8,8 +8,17 @@ const numeroString = '456';
 console.log(numero == numeroString)
 console.log(numero + numeroString)
 
+// conversão explícita
+
 //Number()
-//String()
 console.log(numero + Number(numeroString))
 
-// conversão explícita
+//String()
+let telefone = 12341234;
+console.log("O telefone é " + String(telefone)); // String “12341234” 
+
+let usuarioConectado = false;
+console.log(usuarioConectado); // Boolean = false
+usuarioConectado = true;
+console.log(String(usuarioConectado)); // Teremos a conversão da booleana para string “true”.
+
